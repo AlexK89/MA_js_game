@@ -50,7 +50,7 @@ function go_to_game() {
 function dead_cow() {
     $('.cow_target', this).removeClass('js_clickable_cow')
     $('.parachute_target', this).css("visibility", "hidden")
-    $('.cow_target', this).css("background-image", "url('js/dead_cow.png')")
+    $('.cow_target', this).css("background-image", "url('MA_js_game/js/dead_cow.png')")
     $(this).fadeOut('slow', function () {
         $(this).remove()
     })
