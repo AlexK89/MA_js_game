@@ -68,7 +68,7 @@ function remove_cow(cow) {
  * increment score and then remove cow from dom
  */
 function rocket_cow($clicked_cow) {
-    $('.cow_target', $clicked_cow).css('background-image',"url('MA_js_game/js/rocket_cow.png')")
+    $('.cow_target', $clicked_cow).css('background-image',"url('MA_js_game/img/rocket_cow.png')")
     $('.cow_target', $clicked_cow).css("height", "140px")
     $clicked_cow.css("z-index", "4")
     $('.parachute_target', $clicked_cow).css("visibility", "hidden")
