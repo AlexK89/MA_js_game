@@ -36,7 +36,7 @@ function create_cow(fall_time) {
  */
 function go_to_game() {
     $(".lives_value").text("5")
-    $(".score_value").text("0")
+    $(".score_value").text("000")
     interval_between_cows = 3000
     fall_time = 4000
     $(".game_title").hide()
@@ -48,7 +48,7 @@ function go_to_game() {
  * Removed cows when they hit the spikes, make them fade out and change image. Also minus a life.
  */
 function dead_cow() {
-    $('.cow_target', this).removeClass('js_clickable_cow').css("background-image", "url('../img/dead_cow.png')")
+    $('.cow_target', this).removeClass('js_clickable_cow').css("background-image", "url('img/dead_cow.png')")
     $('.parachute_target', this).css("visibility", "hidden")
     $(this).fadeOut('slow', function() {
         $(this).remove()
