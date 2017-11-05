@@ -1,5 +1,4 @@
 # JS-game
-2017 students point and shoot game
 
 https://alexk89.github.io/MA_js_game/
 
